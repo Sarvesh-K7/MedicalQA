@@ -1,0 +1,9 @@
+MODEL_NAME = "meta-llama/Llama-3.2-3B-Instruct"
+DATASET_NAME = "GBaker/MedQA-USMLE-4-options"
+
+SEED = 42
+MAX_LENGTH = 512
+
+LORA_R = 16
+LORA_ALPHA = 32
+LORA_DROPOUT = 0.05
